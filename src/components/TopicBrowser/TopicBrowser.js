@@ -4,6 +4,7 @@ import FilterObject from '../Topics/FilterObject'
 import FilterString from '../Topics/FilterString'
 import Palindrome from '../Topics/Palindrome'
 import Sum from '../Topics/Sum'
+import Multiplication from '../Topics/Multiplication'
 
 
 export default class TopicBrowser extends Component {
@@ -15,6 +16,7 @@ export default class TopicBrowser extends Component {
         <FilterString/>
         <Palindrome/>
         <Sum/>
+        <Multiplication/>
       </div>
     )
   }
